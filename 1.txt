@@ -1,0 +1,18 @@
+var arr=function(array){
+return array.filter(n=>n%2)}
+arr([1,2,3,4,5])
+
+_____________________________________________________________
+
+var str=function(string){
+return string.toUpperCase()}
+str("guvi");
+console.log(str("guvi"))
+_____________________________________________________________
+
+var sum=function(array){
+var a= array.reduce((start,n)=>{return start+n},0)
+console.log(a)}
+sum([1,2,3,4,5]);
+
+
